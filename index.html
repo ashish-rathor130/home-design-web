@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DesignIn – Home Interiors</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h1>DesignIn</h1>
+  <i class="fas fa-bars menu-toggle" onclick="toggleMenu()"></i>
+  <ul id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#designs">Our Services</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HOME / SLIDER -->
+<section id="home">
+  <div class="slides">
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" class="active">
+    <img src="https://images.unsplash.com/photo-1615873968403-89e068629265">
+    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7">
+  </div>
+  <div class="home-overlay">
+    <h2>Your home designed, managed and delivered with end-to-end interior designs</h2>
+    <a href="#designs" class="btn">Explore Our Designs</a>
+  </div>
+</section>
+
+<!-- DESIGN SECTION -->
+<section id="designs">
+  <div class="section-title"><h2>End-to-End Interior Designs</h2></div>
+  <div class="grid">
+    <div class="card"><img src="https://images.unsplash.com/photo-1615529328331-f8917597711f"></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87"></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7"></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1615873968403-89e068629265"></div>
+  </div>
+  <br><center>
+    <a class="btn" href="https://wa.me/919999999999">Book Design on WhatsApp</a>
+  </center>
+</section>
+
+<!-- KITCHEN -->
+<section>
+  <div class="section-title"><h2>Kitchen Interior Designs</h2></div>
+  <div class="grid">
+    <div class="card"><img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f"></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2"></div>
+    <div class="card"><img src="https://images.unsplash.com/photo-1556909212-d5b604d0c90d"></div>
+  </div>
+  <br><center>
+    <a class="btn" href="https://wa.me/919999999999">Talk to Our Designers</a>
+  </center>
+</section>
+
+<!-- REVIEWS -->
+<section>
+  <div class="section-title"><h2>100+ Happy Home Interior Clients</h2></div>
+  <div class="grid">
+    <div class="review">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
+      <h4>Rohit Sharma</h4>
+      <p>Bangalore</p>
+      <div class="stars">★★★★★</div>
+    </div>
+    <div class="review">
+      <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7">
+      <h4>Anjali Verma</h4>
+      <p>Mumbai</p>
+      <div class="stars">★★★★★</div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section>
+  <div class="section-title"><h2>Our Services</h2></div>
+  <div class="services">
+    <div class="service-box"><i class="fa-solid fa-kitchen-set"></i><h4>Kitchen Interiors</h4></div>
+    <div class="service-box"><i class="fa-solid fa-bed"></i><h4>Bedroom Interiors</h4></div>
+    <div class="service-box"><i class="fa-solid fa-couch"></i><h4>Living Room</h4></div>
+    <div class="service-box"><i class="fa-solid fa-house-user"></i><h4>Guest Room</h4></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-title"><h2>About Us</h2></div>
+  <div class="about">
+    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36">
+    <div>
+      <h3>DesignIn Interior Studio</h3>
+      <p>📍 City Center, Main Road</p>
+      <p>⏰ 9 AM – 8 PM</p>
+      <p>📞 +91 99999 99999</p><br>
+      <a class="btn" href="https://wa.me/919999999999">Connect on WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-title">
+    <h2>Contact Us</h2>
+    <p>Share your details and our designers will contact you</p>
+  </div>
+
+  <div class="contact-container">
+    <form class="contact-form">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="tel" placeholder="Mobile Number" required>
+      <textarea rows="5" placeholder="Describe your interior requirement" required></textarea>
+      <button type="submit" class="btn">Submit Details</button>
+    </form>
+
+    <div class="contact-info">
+      <h3>DesignIn Interior Studio</h3>
+      <p>📍 City Center, Main Road</p>
+      <p>📞 +91 99999 99999</p>
+      <p>⏰ 9 AM – 8 PM</p>
+      <br>
+      <a class="btn" href="https://wa.me/919999999999">WhatsApp Us</a>
+    </div>
+  </div>
+</section>
+<footer id="contact">
+  <p>© 2026 DesignIn | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
